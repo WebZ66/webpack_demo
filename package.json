@@ -1,0 +1,12 @@
+{
+  "name": "webpack_demo",
+  "version": "1.0.0",
+  "description": "yarn add webpack \r  yarn add webpack-cli      \r  yarn add webpack-dev-server \r  yarn add html-webpack-plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
