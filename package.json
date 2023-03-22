@@ -4,9 +4,24 @@
   "description": "yarn add webpack \r  yarn add webpack-cli      \r  yarn add webpack-dev-server \r  yarn add html-webpack-plugin",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "vue": "^3.2.47",
+    "vue-loader": "^17.0.1"
+  }
 }

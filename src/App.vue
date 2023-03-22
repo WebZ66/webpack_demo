@@ -1,9 +1,11 @@
 <template>
-  <div></div>
+  <div>
+    <Hello />
+  </div>
 </template>
 
 <script setup lang="ts">
-import { ref, reactive, computed } from 'vue'
+import Hello from '@/components/Hello.vue'
 </script>
 
 <style scoped></style>
