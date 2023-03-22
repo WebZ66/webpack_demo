@@ -1,13 +1,12 @@
-# webpack
+# 基于webpack模拟vue-cli3
 
-修改了一下 readme。我想推送到远端分支
+## 安装启动
+推荐node 版本14以上，npm install即可
 
+打包:npm run build
 
-## 安装
+启动本地服务:npm run serve
 
-yarn add webpack
-yarn add webpack-cli  
- yarn add webpack-dev-server
-yarn add html-webpack-plugin
-npm init
-tsc init
+&#x1F680;&#x1F680;&#x1F680; 
+目前，该脚手架支持vue3,ts。对于less和sass未进行配置，开发者可自行配置
+
